@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disaster Management</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body{
+        font-family: 'Roboto Slab', serif;
+        color: white;
+        margin: 0;
+        padding: 0px;
+        background: url('img/bg.jpg');
+        background-size: 1350px;
+
+    }
+
+    .left{
+        position: absolute;
+        left: 34px;
+        top: 20px;
+        display: inline-block;
+        /* border: 2px solid lightgreen; */
+
+    }
+
+    .mid{
+      
+        display: block;
+        width: 33%;
+        margin: 20px auto;
+        border: 2px solid gray;
+
+    }
+
+    .right{
+        
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+        /* border: 2px solid greenyellow; */
+
+    }
+    .navbar{
+        display: inline-block;
+    }
+
+    .navbar li{
+        display: inline-block;
+        font-size: 21px;
+
+    }
+
+    .navbar a{
+        color: aliceblue;
+        text-decoration: none;
+        padding: 34px 22px;
+    }
+
+    .navbar li a:hover, .navbar li a.activer{
+        text-decoration: underline;
+        color: black;
+
+    }
+
+    .left img{
+        width: 153px;
+    }
+
+    .left div{
+        text-align: center;
+        color: rgb(0 200 255 / 91%);
+       
+
+    }
+
+    .btn{
+        margin: 0px 9px;
+        color: beige;
+        background-color: black;
+        padding: 4px 14px;
+        /* border: 2px solid grey; */
+        border-radius: 10px;
+        cursor: pointer;
+
+    }
+
+    .btn:hover{
+        background-color:rgba(226, 43, 43, 0.164);
+    }
+
+    .container{
+        /* border: 2px solid green; */
+        margin: 91px 10px;
+        padding: 40px;
+        width: 68%;
+        display: block;
+        border-radius: 2px;
+    }
+
+    .form-group input{
+        text-align: center;
+        display: inline-block;
+        width: 390px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 0px auto;
+        border-radius: 8px;
+        font-size: 20px;
+
+    }
+
+    .container h1{
+       text-align: left;
+       color: black;
+    
+    }
+
+    
+
+    .container button{
+        position: absolute;
+        left: 160px;
+        width: 154px;
+        margin: 10px;
+        padding: 4px;
+        border-radius: 8px;
+        color: rgb(0, 0, 0);
+
+    }
+
+    .dv{
+        font-size: 24px;
+        position: absolute;
+        top: 610px;
+        left: 48px;
+    }
+
+    .ol{
+        font-size: 24px;
+        padding: 48px;
+    }
+
+    .fg{
+        font-size: 24px;
+        padding: 48px;
+        margin-top: -120px;
+        color: black;
+    }
+    
+
+
+
+
+</style>
+<body>
+
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="img/cg.jpeg" alt="">
+            <div> Sharma Private Limited</div>
+
+        </div>
+
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <!-- <li><a href="#"></a></li> -->
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <!-- Right box for button -->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <buttton class="btn">Email Us</buttton>
+
+        </div>
+</header>
+<div class="container">
+    <h1> Safety's Intention Is Accident Prevention!!<h1>
+        <p>Request your personlized demo</p>
+   
+    <form action="noaction.php">
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Name">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Age">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Gender">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Locality">
+        </div>
+        <button class=".btn">Submit</button>
+    </form>
+</div>
+<div class="dv"><p>Everbridge Crisis Management provides a single solution for business continuity, disaster recovery and emergency communication.
+    Have a live demo with one of our specialists, tailored to your organization, to see how Everbridge Crisis Management enables you to:</p>
+</div>
+<div>
+    <br>
+</div>
+<div>
+    <ul class="ol">
+        <li>Turn static standard operating procedures into flexible, actionable tasks</li>
+        <li>Provide a common operating picture for all stakeholders</li>
+        <li>Coordinate crisis response activities, team members and resources to accelerate recovery times</li>
+        <li>Share event dashboards and situation reports to monitor response and recovery in real-time</li>
+
+</ul>
+</div>
+<div>
+    <br>
+
+</div>
+<div class="fg">
+    <strong>Request your live demo now!</strong>
+</div>
+
+
+    
+</body>
+</html>
